@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return "Welcome to simple OpenShift Demo!!!!"
+    return "Docker: Welcome to simple OpenShift Demo!!!!"
 
 @app.route('/how are you')
 def hello():
